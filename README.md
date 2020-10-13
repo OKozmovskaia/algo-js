@@ -1,2 +1,2 @@
 # algo-js
-This are exercises in javascript
+These are exercises in javascript

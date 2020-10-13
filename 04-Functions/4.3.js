@@ -10,8 +10,15 @@ let random = rand10();
 
 // create array
 let arr = [];
-for (i = 1; i <= arrLength; i++) {
-  arr.push(rand10());
+
+function multiRand(n) {
+  for (i = 1; i <= n; i++){
+    arr.push(rand10());
+  }
 }
+
+
+
+multiRand(arrLength);
 
 console.log(arr);

@@ -13,7 +13,7 @@ function calcDistance (a, b) {
   let xd = b[0] - a[0];
   let yd = b[1] - a[1];
   let distance = (Math.sqrt((xd * xd) + (yd * yd)));
-  return distance.toFixed(2);
+  return +distance.toFixed(2);
 
 }
 

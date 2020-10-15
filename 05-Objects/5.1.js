@@ -21,7 +21,7 @@ function askTvSerie() {
   let numberOfActors = new Number(readlineSync.question("How much actors your remember on that serial? "));
   // the nested object
   for (let i = 1; i <= numberOfActors; i++) {
-    console.log(numberOfActors);
+    
     let actor = {
       name: " ",
       role: " "

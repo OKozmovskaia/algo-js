@@ -2,7 +2,7 @@ const readlineSync = require("readline-sync");
 
 // take the index of number for Fibonacci numbers from user
 
-let index = new Number(readlineSync.question("Enter integer for create Fibonacci Numbers? "));
+let index = new Number(readlineSync.question("Enter integer from 3 for create Fibonacci Numbers? "));
 
 let arr = [0,1,1];
 
